@@ -31,7 +31,7 @@ const StyledButton = styled.button<{ variant: string }>`
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
-  background-color: ${({ variant }) => backgroundColor(variant)}}; 
+  background-color: ${({ variant }) => backgroundColor(variant)};
 `;
 
 const Button = ({ placeholder, variant }: ButtonType) => {
