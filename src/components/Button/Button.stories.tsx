@@ -1,8 +1,7 @@
 import React from "react";
 import Button from "./Button";
-import { ButtonType } from "./Button";
 import { Story } from "@storybook/react/types-6-0";
-
+import { ButtonType } from "./Button";
 export default {
   title: "Form/Button",
   component: Button,
