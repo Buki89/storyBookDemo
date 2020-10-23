@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-type ButtonType = {
+export type ButtonType = {
   placeholder: string;
   variant: "primary" | "secondary" | "success" | "danger";
 };
